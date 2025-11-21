@@ -62,7 +62,7 @@ Un **volant physique** permet de tourner à droite et à gauche.
 |------------|-------------|
 | **UE5** | Moteur du jeu |
 | **Niagara** | Particules & effets visuels |
-| **Arduino / Capteurs** | Inputs du controller |
+| **Microcontroller / Capteurs** | Inputs & carte mère |
 | **Prototype en carton** | Structure physique actuelle |
 
 ---
@@ -84,7 +84,7 @@ Le controller est actuellement en **carton**.
 Une future version pourrait inclure :
 
 - **Structure imprimée en 3D**  
-- Composants internes mieux stabilisés  
+- Composants internes mieux intégrés à la structure
 - Amélioration de l’ergonomie générale  
 
- Objectif : **solidité**, **professionnalisme**.
+ Objectif : **solidité**, **qualité**.
