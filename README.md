@@ -1,5 +1,5 @@
 # Alternative Controller – Visual Particle Experience  
-*Unreal Engine 5 – Niagara – Controller Alternatif*
+*Unreal Engine 5 – Niagara – Alternative Controller*
 
 ![Status](https://img.shields.io/badge/Prototype-Yes-blue)
 ![Engine](https://img.shields.io/badge/Engine-UE5-black)
@@ -7,45 +7,45 @@
 
 ---
 
-## Description du projet
+## Project Description
 
 ![](Images/Image1.png)
 
-Ce projet propose une expérience visuelle mettant en avant **Niagara (UE5)**.  
-Le joueur contrôle une **sphère de particules colorées** évoluant dans un environnement **entièrement noir**, uniquement structuré par des **néons lumineux** délimitant la carte.
+This project proposes a visual experience highlighting **Niagara (UE5)**.  
+The player controls a **sphere of colored particles** evolving in a **completely black environment**, structured only by **glowing neon lights** that define the map.
 
 ![](Images/Video.gif)
 
-En traversant certaines **zones de lumière**, la sphère absorbe leurs **couleurs**, créant un contraste fort au sein de l'obscurité.
+By passing through certain **light zones**, the sphere absorbs their **colors**, creating a strong contrast within the darkness.
 
 ![](Images/Video2.gif)
 
-On peut également **controller du vent** pour jouer avec les particules de la sphère, lorsque celle-ci change de couleur.
+It is also possible to **control wind** to interact with the particles of the sphere when it changes color.
 
 ---
 
-## Objectifs
+## Objectives
 
-- Mettre en scène les capacités visuelles de **Niagara**  
-- Créer un environnement minimaliste basé sur la lumière  
-- Expérimenter avec un **controller alternatif physique**
+- Showcase the visual capabilities of **Niagara**  
+- Create a minimalist environment based on light  
+- Experiment with a **physical alternative controller**
 
 ---
 
-## Controller Alternatif
+## Alternative Controller
 
 ![](Images/Image6.jpg)
 
-### 🔸 Déplacement — Souffle + Ballon  
-Le joueur souffle dans un ballon qui, en se gonflant, presse un **bouton physique**.  
-Lorsque le bouton s’active, la sphère avance.
+### 🔸 Movement — Breath + Balloon  
+The player blows into a balloon which, as it inflates, presses a **physical button**.  
+When the button is activated, the sphere moves forward.
 
 ![](Images/Image4.png)
 
-**Logique :** interaction basée sur le **flux d’air** et la mise sous pression.
+**Logic:** interaction based on **air flow** and pressure buildup.
 
-### 🔸 Rotation — Volant manuel  
-Un **volant physique** permet de tourner à droite et à gauche.
+### 🔸 Rotation — Manual Wheel  
+A **physical wheel** allows turning left and right.
 
 ![](Images/Image5.png)
 
@@ -53,42 +53,42 @@ Un **volant physique** permet de tourner à droite et à gauche.
 
 ## Gameplay
 
-- Observer les mouvements des particules de la sphère dans un monde sombre et silencieux
-- Utiliser les **néons** comme repères et limites
-- Changer de couleur en traversant les zones lumineuses  
-- Jouer physiquement : souffler, tourner, manipuler le controller
+- Observe the movement of the sphere’s particles in a dark and silent world  
+- Use **neon lights** as landmarks and boundaries  
+- Change color by passing through light zones  
+- Play physically: blow, turn, manipulate the controller  
 
 ---
 
-## Technologies utilisées
+## Technologies Used
 
-| Technologie | Utilisation |
-|------------|-------------|
-| **UE5** | Moteur du jeu |
-| **Niagara** | Particules & effets visuels |
-| **Microcontroller / Capteurs** | Inputs & carte mère |
-| **Prototype en carton** | Structure physique actuelle |
+| Technology | Usage |
+|------------|-------|
+| **UE5** | Game engine |
+| **Niagara** | Particles & visual effects |
+| **Microcontroller / Sensors** | Inputs & main board |
+| **Cardboard prototype** | Current physical structure |
 
 ---
 
-## Axes d'amélioration
+## Areas for Improvement
 
-### 1. Capteur d’air / pression  
-Remplacer le ballon par :  
-- un **capteur de pression différentielle**, ou  
-- un **capteur de flux d’air**.
+### 1. Air / Pressure Sensor  
+Replace the balloon with:  
+- a **differential pressure sensor**, or  
+- an **airflow sensor**.
 
- Objectif : **précision**, **durabilité**, **hygiène**, meilleure **réactivité**.
+Objective: **precision**, **durability**, **hygiene**, better **responsiveness**.
 
-### 2. Structure du controller  
+### 2. Controller Structure  
 
 ![](Images/Image3.png)
 
-Le controller est actuellement en **carton**.  
-Une future version pourrait inclure :
+The controller is currently made of **cardboard**.  
+A future version could include:
 
-- **Structure imprimée en 3D**  
-- Composants internes mieux intégrés à la structure
-- Amélioration de l’ergonomie générale  
+- **3D-printed structure**  
+- Internal components better integrated into the structure  
+- Improved overall ergonomics  
 
- Objectif : **solidité**, **qualité**.
+Objective: **strength**, **quality**.
